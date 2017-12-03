@@ -99,3 +99,8 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+*.retry
+molecule/default/.molecule
+molecule/default/.cache/
+molecule/default/tests/__pycache__/
