@@ -14,4 +14,4 @@
 
   roles:
     - rvm_io.ruby
-    - gauntlt
+    - ansible-role-gauntlt

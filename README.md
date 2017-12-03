@@ -17,17 +17,17 @@ None.
 
 ## Example Playbook
 
-  - hosts: servers
-    vars:
-      # ruby installation 
-      ruby_version: 'ruby-2.3.1'
-      rvm1_rubies: ['{{ ruby_version }}']
-      rvm1_user: 'root'
-      rvm1_install_path: '/usr/local/rvm'
-
-    roles:
-      - rvm_io.ruby
-      - secfigo.gauntlt
+	  - hosts: servers
+	    vars:
+	      # ruby installation via rvm
+	      ruby_version: 'ruby-2.3.1'
+	      rvm1_rubies: ['{{ ruby_version }}']
+	      rvm1_user: 'root'
+	      rvm1_install_path: '/usr/local/rvm'
+	
+	    roles:
+	      - rvm_io.ruby
+	      - secfigo.gauntlt
 
 ## License
 
