@@ -12,7 +12,7 @@ script:
   - ansible --version
   - molecule --version
   - docker -v
-  - molecule test
+  - molecule $DEBUG test
 
 notifications:
   webhooks: https://galaxy.ansible.com/api/v1/notifications/
