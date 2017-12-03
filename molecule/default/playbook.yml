@@ -13,5 +13,5 @@
     rvm1_install_path: '/usr/local/rvm'
 
   roles:
-    - rvm_io.ruby
-    - ansible-role-gauntlt
+    - role: rvm_io.ruby
+    - role: ansible-role-gauntlt

@@ -18,16 +18,8 @@ galaxy_info:
       versions:
       - all
   galaxy_tags:
-    - development
-    - system
-    - image
-    - box
-    - virtualbox
-    - vagrant
-    - ami
-    - aws
-    - droplet
-    - packaging
-    - build
-    - terraform
-    - hashicorp
+    - security 
+    - gauntlt 
+    - DevSecOps-studio 
+    - DevSecOps 
+    - rugged DevOps 
