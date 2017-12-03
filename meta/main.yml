@@ -20,6 +20,8 @@ galaxy_info:
   galaxy_tags:
     - security
     - gauntlt
-    - DevSecOps-studio
+    - DevSecOpsStudio
     - DevSecOps
-    - rugged DevOps
+    - ruggedDevOps
+    - system
+    - ci
