@@ -6,8 +6,9 @@ services:
 before_install:
   - sudo apt-get -qq update
 install:
-  - pip install molecule==2.22
-  - pip install docker
+  - pip install docker==4.2.0
+  - pip install molecule==2.22 # Molecule Installs Ansible
+  - pip install ansible-lint==3.4.23
 script:
   - ansible --version
   - molecule --version
