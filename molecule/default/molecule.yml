@@ -11,7 +11,7 @@ lint:
   enabled: False 
 platforms:
   - name: instance
-    image: ubuntu:16.04
+    image: ubuntu:18.04
     privileged: True
 provisioner:
   name: ansible
